@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "CookieRemover",
+    "version": "0.0.1",
+    "description": "remove cookies of current page",
+    "author": "tricora",
+    "browser_action": {
+        "default_icon": "icons/cookie-icon.png",
+        "default_title": "Remove Cookies of current page"
+    },
+    "permissions": [
+        "tabs",
+        "cookies",
+        "*://*/*"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
